@@ -1,0 +1,144 @@
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-image: linear-gradient(to left, rgba(255,0,0,0), rgb(110, 163, 215));
+}
+body{
+    margin: 0;
+    background-image: linear-gradient(to right, rgba(255,0,0,0), rgb(170, 167, 208));
+}
+.menu_icon{
+    height: 30px;
+}
+.searchbox{
+    width: 300px;
+    height: 30px;
+    display: flex;
+    
+    
+}
+input::placeholder{
+    padding-left: 10px;
+}
+input{
+    border: none;
+    border-radius: 20px;
+    box-shadow: 0px 1px 4px rgba(0,0,0,0.6);
+    width: 300px;
+}
+.cat{
+    height: 50px;
+    width: 50px;
+    object-fit: cover;
+    border-radius: 25px;
+    border: 1px solid rgba(0,0,0,0.6);
+}
+.search{
+    height: 23px;
+
+}
+.expand{
+    margin: 0;
+    margin-top: 6px;
+    height: 40px;
+}
+.search_button{
+    height: 30px;
+    width: 30px;
+    object-fit: cover;
+    border-radius: 15px;
+    border: none;
+    margin-left: 3px;
+    padding-right: 28px;
+    transition: opacity 0.20s;
+}
+.pfp{
+    display: flex;
+}
+button:hover{
+    opacity: 0.8;
+}
+button:active{
+    opacity: 0.3;
+}
+.tracking{
+height: 500px;
+width: 600px;
+background-color: rgb(227, 237, 237);
+border: none;
+border-radius: 80px;
+box-shadow: 1px 2px 6px rgba(0,0,0,0.6);
+margin-top: 40px;
+margin-left: 30px;
+align-items: center;
+}
+.article{
+    height: 500px;
+width: 300px;
+background-color: rgb(227, 237, 237);
+border: none;
+border-radius: 50px;
+
+box-shadow: 1px 2px 6px rgba(0,0,0,0.6);
+margin-top: 40px;
+margin-left: 30px;
+align-items: center;
+}
+.track_main{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.track_title{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    margin-left: 240px;
+    padding-top: 15px;
+    
+}
+.hub{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    margin-left: 110px;
+    padding-top: 15px;
+    
+}
+.ambul_but{
+    background-color: rgb(228, 132, 29);
+    border: none;
+    height: 200px;
+    width: 200px;
+    border-radius: 100px;
+    margin-right: 50px;
+}
+button:hover{
+    opacity: 0.7;
+    box-shadow: 3px 5px 5px rgba(0,0,0,0.6);
+}
+button:active{
+    background-color: rgb(216, 46, 46);
+}
+.thermo,.diag,.bp,.htrt{
+    padding: 10px;
+    height: 60px;
+    padding-left: 25px;
+    padding-bottom: 20px;
+}
+li{
+   font-size: 18px; 
+   line-height: 35px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+a{
+    color: rgb(189, 85, 85);
+}
+a:hover{
+    background-color: rgb(59, 56, 56);
+    color: white;
+}
+a:active{
+    color: rgb(147, 64, 183);
+}
